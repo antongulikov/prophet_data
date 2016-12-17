@@ -1,3 +1,3 @@
 
 prog: prog.o
-	g++ --std=c++11 prog.cpp -o prog
+	g++ --std=c++11 -o prog prog.o
